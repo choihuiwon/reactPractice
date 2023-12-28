@@ -24,7 +24,7 @@ const App = () => {
         id: dataId.current++,
       };
     });
-
+    console.log("바뀜");
     setData(initData);
   };
 
